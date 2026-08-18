@@ -5,7 +5,7 @@ word=random.choice(words)
 guessed_letters=[]
 guessed_word=["_"]*len(word)
 
-print("=====HUNGMAN GAME=====")
+print("=====HANGMAN GAME=====")
 
 while lives > 0 and "_" in guessed_word:
     print("word : "," ".join(guessed_word))
